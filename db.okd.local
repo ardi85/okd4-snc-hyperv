@@ -15,13 +15,13 @@ okd4-services.okd.local.          IN      A       192.168.76.110
 
 ; OpenShift Container Platform Cluster - A records
 okd4-bootstrap.lab.okd.local.        IN      A      192.168.60.242
-okd4-control-plane-1.lab.okd.local.        IN      A      192.168.76.111
+okd4-control-plane-1.lab.okd.local.        IN      A      192.168.76.101
 
 ; OpenShift internal cluster IPs - A records
 api.lab.okd.local.    IN    A    192.168.76.110
 api-int.lab.okd.local.    IN    A    192.168.76.110
 *.apps.lab.okd.local.    IN    A    192.168.76.110
-etcd-0.lab.okd.local.    IN    A     192.168.76.111
+etcd-0.lab.okd.local.    IN    A     192.168.76.101
 console-openshift-console.apps.lab.okd.local.     IN     A     192.168.76.110
 oauth-openshift.apps.lab.okd.local.     IN     A     192.168.76.110
 
