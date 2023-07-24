@@ -14,7 +14,7 @@ $TTL    604800
 okd4-services.okd.local.          IN      A       192.168.76.110
 
 ; OpenShift Container Platform Cluster - A records
-okd4-bootstrap.lab.okd.local.        IN      A      192.168.60.242
+okd4-bootstrap.lab.okd.local.        IN      A      192.168.76.100
 okd4-control-plane-1.lab.okd.local.        IN      A      192.168.76.101
 
 ; OpenShift internal cluster IPs - A records
